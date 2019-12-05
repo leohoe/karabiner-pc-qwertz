@@ -673,7 +673,7 @@
                         ]
                     },
                     {
-                        "description": "Change Control+Backspace to Option+Backspace",
+                        "description": "Switch Control+Backspace and Option+Backspace",
                         "manipulators": [
                             {
                                 "from": {
@@ -696,11 +696,33 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "delete_or_backspace",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
                     {
-                        "description": "Change Control+Delete to Option+Delete",
+                        "description": "Switch Control+Delete and Option+Delete",
                         "manipulators": [
                             {
                                 "from": {
@@ -719,6 +741,28 @@
                                         "key_code": "delete_forward",
                                         "modifiers": [
                                             "option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "delete_forward",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_forward",
+                                        "modifiers": [
+                                            "control"
                                         ]
                                     }
                                 ],
