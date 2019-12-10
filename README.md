@@ -1,13 +1,15 @@
-== General ==
+# PC/QWERTZ Bindings for Karabiner-Elements
+
+## General
 
 These are my personally preferred keybindings on Mac OS, for use with Karabiner-Elements.
-I am used to a regular (if German) keyboard layout, with Control, Alt and Alt Graph keys - the kind every other OS uses.
+I am used to a regular (if German) keyboard layout, with Control, Alt and Alt Graph keys - the kind every OS outside of Apple's purview uses.
 As such, I like my muscle memory just the way it is.
 
 I'm sure there's a lot left to change that I've missed so far.
 If you come across an inconsistency, please feel very free to open an Issue or Pull Request.
 
-== Application ==
+## How To Use
 
 Karabiner's configuration files are located in ~/.config/karabiner.
 These keybindings rely on the following Mac-side settings:
