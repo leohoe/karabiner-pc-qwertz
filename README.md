@@ -12,7 +12,10 @@ Please feel very free to [open an Issue](https://github.com/leohoe/karabiner-pc-
 
 ## How To Use
 
-Karabiner's configuration files are located in `~/.config/karabiner`  
+Karabiner's configuration files are located in `~/.config/karabiner`
+Add the files from this Repository. Now you can enable these modifications in Karabiner-Elements.
+Go to the "Complex modifications" tab, then click the "Add rule" Button.
+
 These keybindings rely on the following Mac-side settings:
 
 1) Go to System Preferences -> Keyboard -> Keyboard -> Modifier Keys...
