@@ -12,8 +12,8 @@ Please feel very free to [open an Issue](https://github.com/leohoe/karabiner-pc-
 
 ## How To Use
 
-Karabiner's configuration files are located in `~/.config/karabiner`
-Add the files from this Repository. Now you can enable these modifications in Karabiner-Elements.
+Karabiner's configuration files are located in `~/.config/karabiner`  
+Add the files from this Repository. Now you can enable these modifications in Karabiner-Elements.  
 Go to the "Complex modifications" tab, then click the "Add rule" Button.
 
 These keybindings rely on the following Mac-side settings:
@@ -26,7 +26,7 @@ These keybindings rely on the following Mac-side settings:
 
 ## If you run into trouble with the ^ and < keys:
 
-There are long-known and long-ignored bugs with Mac and Karabiner relating to these keys.
+There are long-known and long-ignored bugs with Mac and Karabiner relating to these keys.  
 Specifically, external non-apple keyboards may end up swapping the key below Esc with the key to the right of Left Shift.
 
 I have included the following Karabiner rules to help with this issue:
@@ -35,5 +35,5 @@ I have included the following Karabiner rules to help with this issue:
 - "Change Caret to Less Than"
 - "Change Less Than to Caret"
 
-Karabiner allows for manual re-ordering of rules - make sure these are in the correct order.
+Karabiner allows for manual re-ordering of rules - make sure these are in the correct order.  
 If the first of these three is BELOW the other two, trying to type a pipe '|' character will instead give you a less-than-or-equal '≤' character.
