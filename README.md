@@ -20,3 +20,14 @@ These keybindings rely on the following Mac-side settings:
 
 3) Go to System Preferences -> Keyboard -> Shortcuts -> App Shortcuts
 4) Add entry: [All Applications] / "Redo" / Command-Y
+
+## If you run into trouble with the ^ and < keys:
+
+There are long-known and long-ignored bugs with Mac and Karabiner relating to these keys.
+Specifically, external non-apple keyboards may end up swapping the key below Esc with the key to the right of Left Shift.
+
+I have included the following Karabiner rules to help with this issue:
+
+- "Change Caret to Less Than" (keep at the TOP of Rule list)
+- "Change Less Than to Caret" (keep at the TOP of Rule list)
+- "PC-Style German Alt Gr (pipe - compatible with switched < and ^ keys)" (keep BELOW the above two rules)
