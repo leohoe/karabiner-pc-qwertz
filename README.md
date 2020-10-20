@@ -28,6 +28,6 @@ Specifically, external non-apple keyboards may end up swapping the key below Esc
 
 I have included the following Karabiner rules to help with this issue:
 
-- "Change Caret to Less Than" (keep at the TOP of Rule list)
-- "Change Less Than to Caret" (keep at the TOP of Rule list)
-- "PC-Style German Alt Gr (pipe - compatible with switched < and ^ keys)" (keep BELOW the above two rules)
+- "PC-Style German Alt Gr (pipe - compatible with switched < and ^ keys)" (keep ABOVE the next two rules)
+- "Change Caret to Less Than"
+- "Change Less Than to Caret"
