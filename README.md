@@ -31,3 +31,6 @@ I have included the following Karabiner rules to help with this issue:
 - "PC-Style German Alt Gr (pipe - compatible with switched < and ^ keys)" (keep ABOVE the next two rules)
 - "Change Caret to Less Than"
 - "Change Less Than to Caret"
+
+Karabiner allows for manual re-ordering of rules - make sure these are in the correct order.
+If the first of these three is BELOW the other two, trying to type a pipe '|' character will instead give you a less-than-or-equal '≤' character.
